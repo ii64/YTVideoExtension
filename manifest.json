@@ -1,0 +1,11 @@
+  {
+    "name": "YTVideoExtension",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Remote Youtube video DOM directly. And many more things\nMaintianer: https://github.com\\ii64",
+    "permissions": ["tabs"],
+    "content_scripts": [{
+      "matches": ["https://www.youtube.com/*", "https://*.youtube.com/*"],
+      "js": ["yt_ext.js"]
+    }]
+}
